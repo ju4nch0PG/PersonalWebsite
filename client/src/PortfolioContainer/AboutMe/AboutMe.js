@@ -15,7 +15,7 @@ export default function AboutMe(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTANTS = {
-    description: "Messi Fulbo Messi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi Fulbo.Messi Fulbo Messi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi FulboMessi Fulbo.",
+    description: "I'm a developer extremely motivated and passionate about learning new technologies that help me grow in te professional area. I define myself a solution seeker who enjoys learning something new every day.",
     highlights: {
       bullets: [
         "Full Stack Web Development",
