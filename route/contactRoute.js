@@ -7,11 +7,11 @@ router.post('/contact', (req, res)=>{
         return res.json({msg:"Please Fill All The Fields"})
     }
         let smtpTransporter=nodemailer.createTransport({
-            service: 'hotmail',
+            service: 'Gmail',
             port:465,
             auth:{
-                user: 'juanchipg@hotmail.com',
-                pass:'Juanchi5'
+                user: 'juanchipg7@gmail.com',
+                pass:'Juanchi4'
             }
         })
         let mailOptions={
